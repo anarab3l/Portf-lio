@@ -1,10 +1,36 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio de Disciplinas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <p>AULAS</p>
+    <header>
+        <div class="menu-hamburguer" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <nav id="menu-disciplinas" class="hidden">
+            <ul>
+                <li><a href="disciplina1.html">Disciplina 1</a></li>
+                <li><a href="disciplina2.html">Disciplina 2</a></li>
+                <li><a href="disciplina3.html">Disciplina 3</a></li>
+            </ul>
+        </nav>
+        <h1>Portfólio de Disciplinas</h1>
+        <input type="text" placeholder="Pesquisar...">
+    </header>
+    <nav class="menu-conteudos">
+        <ul>
+            <li><a href="#topico1">Tópico 1</a></li>
+            <li><a href="#topico2">Tópico 2</a></li>
+            <li><a href="#topico3">Tópico 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>Selecione uma disciplina no menu.</p>
+    </main>
 </body>
 </html>
