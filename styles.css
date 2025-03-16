@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.menu-hamburguer {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#menu-disciplinas {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    width: 200px;
+    display: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#menu-disciplinas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-disciplinas li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#menu-disciplinas li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-conteudos {
+    background-color: #555;
+    padding: 10px;
+}
+
+.menu-conteudos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menu-conteudos a {
+    color: white;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
